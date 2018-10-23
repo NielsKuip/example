@@ -19,7 +19,7 @@ task zip(type: Zip) {
 		include "jenkins/**"
 	}
 	destinationDir(file("dist"))
-	baseName"example"
+	baseName "example"
 }
 
 //declare task dependencies
